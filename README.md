@@ -19,7 +19,7 @@ The proposed approach extends the mode-matching method at **exceptional point** 
 
 This package works for EP2 (two modes merging) or EP3 (three modes merging).
 
-[^1]: J. B Lawrie, E. Perrey-Debain, B. Nennig. Submitted to the Proc R Soc A. 2022.
+[^1]: J. B Lawrie, B. Nennig, E. Perrey-Debain, Submitted to the Proc R Soc A. 2022.
 
 The `examples` folder contains most of scripts to obtained results presented in [^1].
 The package proposes some facilties to compute the power balance, solving the dispersion equation, plotting...
@@ -57,7 +57,7 @@ The html files are generated in place. Then open the `matchingep/index.html` fil
 ## Usage
 
 For a lined duct with unit height, lined with the two admittances `mu` and `nu`, the problem can be solved 
-```
+```python
 import numpy as np
 import matchingep as matching 
 # Define the admittances (here EP3 case)
@@ -82,19 +82,19 @@ R = guide.reflected_power()
 ## Citing
 If you are using `matchingep` in your scientific research, please cite
 
-> J. B Lawrie, E. Perrey-Debain, B. Nennig. Submitted to the Proc R Soc A. 2022.
+> J. B Lawrie, B. Nennig, E. Perrey-Debain, Submitted to the Proc R Soc A. 2022.
 
 BibTex:
-```
+```bibtex
 @article{matchingep:2022,
   doi = {},
   year = {2022},
-  volume = 4},
+  volume = {},
   number = {},
   pages = {},
-  author = {Lawrie, J. B and Perrey-Debain, E. and Nennig, B.},
+  author = {Lawrie, J. B and Nennig, B. and Perrey-Debain, E.},
   title = {},
-  journal = {Proc R Soc A.}
+  journal = {Submitted to Proc. R. Soc. A.}
 }
 ```
 
