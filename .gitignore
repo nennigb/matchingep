@@ -1,0 +1,16 @@
+# Byte-code
+__pycache__/
+*.py[cod]
+*.pdf
+*.npz
+
+
+# Distribution / packaging
+*.egg-info/
+build/
+
+# pdoc
+html/
+*.html
+*.dot
+
