@@ -19,7 +19,7 @@ The proposed approach extends the mode-matching method at **exceptional point** 
 
 This package works for EP2 (two modes merging) or EP3 (three modes merging).
 
-[^1]: J. B Lawrie, B. Nennig, E. Perrey-Debain, Submitted to the Proc R Soc A. 2022.
+[^1]: J. B Lawrie, B. Nennig, E. Perrey-Debain, 2022, [10.1098/rspa.2022.0484](https://doi.org/10.1098/rspa.2022.0484).
 
 The `examples` folder contains most of scripts to obtained results presented in [^1].
 The package proposes some facilties to compute the power balance, solving the dispersion equation, plotting...
@@ -82,19 +82,19 @@ R = guide.reflected_power()
 ## Citing
 If you are using `matchingep` in your scientific research, please cite
 
-> J. B Lawrie, B. Nennig, E. Perrey-Debain, Submitted to the Proc R Soc A. 2022.
+> J. B. Lawrie, B. Nennig, and E. Perrey-Debain. "Analytic mode-matching for accurate handling of exceptional points in a lined acoustic waveguide." Proceedings of the Royal Society A 478.2268 (2022): 20220484, [10.1098/rspa.2022.0484](https://doi.org/10.1098/rspa.2022.0484).
 
 BibTex:
 ```bibtex
-@article{matchingep:2022,
-  doi = {},
+@article{doi:10.1098/rspa.2022.0484,
+  author = {Lawrie, Jane B. and Nennig, B. and Perrey-Debain, E.},
+  title = {Analytic mode-matching for accurate handling of exceptional points in a lined acoustic waveguide},
+  journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume = {478},
+  number = {2268},
+  pages = {20220484},
   year = {2022},
-  volume = {},
-  number = {},
-  pages = {},
-  author = {Lawrie, J. B and Nennig, B. and Perrey-Debain, E.},
-  title = {},
-  journal = {Submitted to Proc. R. Soc. A.}
+  doi = {10.1098/rspa.2022.0484}
 }
 ```
 
